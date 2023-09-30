@@ -68,3 +68,9 @@ a:visited {
     box-shadow: var(--box-shadow);
     border-radius: 20px;
 }
+.personal-pic {
+    height: 20rem;
+}
+.my-pic {
+    border-radius: 10px;
+}
