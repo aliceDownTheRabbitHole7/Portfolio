@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&family=IM+Fell+Double+Pica&display=swap');
+
+:root {
+    --anchor-hover: rgba(184, 3, 1, 1);
+    --anchor-clicked: rgba(98, 57, 122, 0.6);
+    --text-light: rgba(250, 250, 250, 1);
+    --text-link: rgba(40, 0, 97, 1);
+    --bg-gradient-light: rgba(39, 170, 245, 0.5);
+    --bg-gradient-dark: rgba(39, 170, 245, 0.9);
+    --bg-side-bar: rgba(39, 217, 245, 0.9);
+
+    --box-shadow: 10px 10px 10px rgba(5, 118, 189, 0.5);
+}
+
+/* Background Image */
+
+body {
+    background-image: 
+    linear-gradient(
+        120deg,
+        var(--bg-gradient-light),
+        var(--bg-gradient-dark)
+    ),
+    url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701330700.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Anchor text */
+
+a {
+    text-decoration: none;
+    color: var(--text-link);
+}
+a:hover {
+    color: var(--anchor-hover);
+}
+a:visited {
+    color: var(--anchor-clicked);
+}
+
+/* Header Font */
+
+#nav-head {
+    font-family: 'Flamenco', cursive;
+}
+#qualifications-head, #projects-head {
+    font-family: 'IM Fell Double Pica', serif;
+    color: var(--text-light);
+}
+
+/* Side bar */
+
+#side-bar {
+    background-color: var(--bg-side-bar);
+    border-radius: 20px; 
+}
+.list-item {
+    list-style: none;
+    margin-left: -2rem;
+    color: var(--text-light);
+}
+#linkedIn-image {
+    height: 256px;
+    width: 256px;
+}
+#side-box{
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+}
