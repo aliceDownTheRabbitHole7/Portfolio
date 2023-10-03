@@ -14,6 +14,9 @@
 
 /* Background Image */
 
+html {
+    width: 100%;
+}
 body {
     background-image: 
     linear-gradient(
@@ -24,6 +27,7 @@ body {
     url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701330700.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    width: 100%;
 }
 
 /* Anchor text */
