@@ -27,7 +27,9 @@ body {
     url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701330700.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
     width: 100%;
+    
 }
 
 /* Anchor text */
